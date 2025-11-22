@@ -4,13 +4,7 @@
 1. 不要使用 homebrew 安裝
 
 
-## 目錄
-- [安裝/卸載](#安裝/卸載)
-- [操作](#操作)
-- [參考](#參考)
-
-
-## 安裝
+## 1 安裝
 
 1. 在終端機輸入安裝指令
 
@@ -36,57 +30,57 @@
     ```
 
 
-## 操作
+## 2 操作
 
-1. 安裝最新版本 node
+### 2-1 安裝最新版本 node
 
     ```
     nvm install latest
     ```
 
-1. 列出已安裝 node 清單
+### 2-2 列出已安裝 node 清單
 
     ```
     nvm ls
     nvm list
     ```
 
-1. 列出遠端可安裝 node 清單
+### 2-3 列出遠端可安裝 node 清單
 
     ```
     nvm ls-remote
     nvm list-remote
     ```
 
-1. 安裝指定版本的 node
+### 2-4 安裝指定版本的 node
 
     ```
     nvm install [node版本]
     nvm install 20
     ```
 
-1. 刪除指定版本的 node
+### 2-5 刪除指定版本的 node
 
     ```
     nvm uninstall [node版本]
     nvm uninstall 20
     ```
 
-1. 使用指定版本的 node
+### 2-6 使用指定版本的 node
 
     ```
     nvm use [node版本]
     nvm use 20
     ```
 
-1. 指定命令列預設的 node 版本
+### 2-7 指定命令列預設的 node 版本
 
     ```
     nvm alias default [node版本]
     nvm alias default 10
     ```
 
-1. 查詢當前使用 node 版本
+### 2-8 查詢當前使用 node 版本
 
     ```
     nvm use node

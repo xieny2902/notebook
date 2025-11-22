@@ -1,11 +1,9 @@
-# Env
+# notebook
 
-電腦環境的設定
 
-## 目錄
-- [homebrew](./homebrew/README.md)
-- [vim](./vim/README.md)
-- [vscode](./vscode/README.md)
-- [yarn](./yarn/README.md)
-- [nvm](./nvm/README.md)
-- [Typescript開發環境](./typescript/README.md)
+1. [homebrew](./homebrew/README.md)
+1. [vim](./vim/README.md)
+1. [yarn](./yarn/README.md)
+1. [nvm](./nvm/README.md)
+1. [npm](./npm/README.md)
+1. [typescript](./typescript/README.md)
